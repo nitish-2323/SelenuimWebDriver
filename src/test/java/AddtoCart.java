@@ -19,7 +19,7 @@ public class AddtoCart {
       public void Setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.get("https://www.saucedemo.com/")
+        driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
